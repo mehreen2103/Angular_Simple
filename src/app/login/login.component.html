@@ -1,1 +1,21 @@
-<h2>login works!</h2>
+<div align="center">
+
+    <h3>Login</h3>
+    <table>
+        <tr>
+            <th>LoginId:</th>
+            <td><input type="text" name="loginId" [(ngModel)]="form.data.loginId" placeholder="Enter your E-mail"></td>
+        </tr>
+
+            <tr>
+                <th>Password</th>
+                <td><input type="password" name="password" [(ngModel)]="form.data.password" placeholder="Enter password"></td>
+            </tr>
+
+            <tr>
+                <th></th>
+                <td><input type="submit" value="SignIn"></td>
+            </tr>
+    </table>
+
+</div>
