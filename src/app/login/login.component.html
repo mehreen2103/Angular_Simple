@@ -1,7 +1,9 @@
 <div align="center">
 
-    <h3>Login</h3>
-    <table>
+    <h2>Login</h2>
+   <form (submit)="SignIn()">
+
+     <table>
         <tr>
             <th>LoginId:</th>
             <td><input type="text" name="loginId" [(ngModel)]="form.data.loginId" placeholder="Enter your E-mail"></td>
@@ -18,4 +20,5 @@
             </tr>
     </table>
 
+   </form>
 </div>
