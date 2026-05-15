@@ -9,10 +9,8 @@ export class HttpServiceService {
   constructor(public httpClient: HttpClient) { }
 
   post(endpoint: any, formData: any, callback: any) {
-
     this.httpClient.post(endpoint, formData).subscribe((response: any) => {
       callback(response); // return response as a Callback function parameter
-
     });
   }
 
